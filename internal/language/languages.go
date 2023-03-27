@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/markusmobius/go-dateparser/internal/data"
-	"github.com/markusmobius/go-dateparser/internal/strutil"
+	"github.com/blampe/go-dateparser/internal/data"
+	"github.com/blampe/go-dateparser/internal/strutil"
 )
 
 func GetLanguages(locales []string, languages []string, useGivenOrder bool) ([]string, error) {

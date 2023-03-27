@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	dps "github.com/markusmobius/go-dateparser"
-	"github.com/markusmobius/go-dateparser/date"
-	"github.com/markusmobius/go-dateparser/internal/strutil"
-	"github.com/markusmobius/go-dateparser/internal/timezone"
+	dps "github.com/blampe/go-dateparser"
+	"github.com/blampe/go-dateparser/date"
+	"github.com/blampe/go-dateparser/internal/strutil"
+	"github.com/blampe/go-dateparser/internal/timezone"
 	"github.com/stretchr/testify/assert"
 )
 

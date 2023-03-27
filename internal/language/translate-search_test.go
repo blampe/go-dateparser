@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/markusmobius/go-dateparser/internal/data"
-	"github.com/markusmobius/go-dateparser/internal/setting"
+	"github.com/blampe/go-dateparser/internal/data"
+	"github.com/blampe/go-dateparser/internal/setting"
 	"github.com/stretchr/testify/assert"
 )
 

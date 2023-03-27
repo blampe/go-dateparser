@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"unicode"
 
-	"github.com/markusmobius/go-dateparser/internal/strutil"
+	"github.com/blampe/go-dateparser/internal/strutil"
 	"golang.org/x/text/unicode/rangetable"
 )
 

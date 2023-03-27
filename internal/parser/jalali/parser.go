@@ -6,12 +6,12 @@ import (
 	"unicode"
 
 	"github.com/jalaali/go-jalaali"
-	"github.com/markusmobius/go-dateparser/date"
-	"github.com/markusmobius/go-dateparser/internal/digit"
-	"github.com/markusmobius/go-dateparser/internal/parser/absolute"
-	"github.com/markusmobius/go-dateparser/internal/setting"
-	"github.com/markusmobius/go-dateparser/internal/strutil"
-	"github.com/markusmobius/go-dateparser/internal/timezone"
+	"github.com/blampe/go-dateparser/date"
+	"github.com/blampe/go-dateparser/internal/digit"
+	"github.com/blampe/go-dateparser/internal/parser/absolute"
+	"github.com/blampe/go-dateparser/internal/setting"
+	"github.com/blampe/go-dateparser/internal/strutil"
+	"github.com/blampe/go-dateparser/internal/timezone"
 )
 
 func Parse(cfg *setting.Configuration, str string) (date.Date, error) {

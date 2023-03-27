@@ -3,8 +3,8 @@ package dateparser
 import (
 	"fmt"
 
-	"github.com/markusmobius/go-dateparser/date"
-	"github.com/markusmobius/go-dateparser/internal/parser/hijri"
+	"github.com/blampe/go-dateparser/date"
+	"github.com/blampe/go-dateparser/internal/parser/hijri"
 )
 
 // ParseHijri parses a Hijri date string using Umm al-Qura Calendar

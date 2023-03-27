@@ -3,11 +3,11 @@ package language
 import (
 	"unicode/utf8"
 
-	"github.com/markusmobius/go-dateparser/internal/data"
-	"github.com/markusmobius/go-dateparser/internal/digit"
-	"github.com/markusmobius/go-dateparser/internal/setting"
-	"github.com/markusmobius/go-dateparser/internal/strutil"
-	"github.com/markusmobius/go-dateparser/internal/timezone"
+	"github.com/blampe/go-dateparser/internal/data"
+	"github.com/blampe/go-dateparser/internal/digit"
+	"github.com/blampe/go-dateparser/internal/setting"
+	"github.com/blampe/go-dateparser/internal/strutil"
+	"github.com/blampe/go-dateparser/internal/timezone"
 )
 
 // IsApplicable checks the specified locale data is applicable to translate the date string `str`.

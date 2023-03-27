@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/markusmobius/go-dateparser/internal/dateutil"
+	"github.com/blampe/go-dateparser/internal/dateutil"
 )
 
 var (

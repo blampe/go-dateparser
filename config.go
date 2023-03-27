@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/markusmobius/go-dateparser/internal/data"
-	"github.com/markusmobius/go-dateparser/internal/setting"
+	"github.com/blampe/go-dateparser/internal/data"
+	"github.com/blampe/go-dateparser/internal/setting"
 )
 
 // DateOrder is function that returns date order string for specified language and/or locale.

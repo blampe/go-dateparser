@@ -8,11 +8,11 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/markusmobius/go-dateparser/date"
-	"github.com/markusmobius/go-dateparser/internal/data"
-	"github.com/markusmobius/go-dateparser/internal/language"
-	"github.com/markusmobius/go-dateparser/internal/setting"
-	"github.com/markusmobius/go-dateparser/internal/strutil"
+	"github.com/blampe/go-dateparser/date"
+	"github.com/blampe/go-dateparser/internal/data"
+	"github.com/blampe/go-dateparser/internal/language"
+	"github.com/blampe/go-dateparser/internal/setting"
+	"github.com/blampe/go-dateparser/internal/strutil"
 )
 
 var (

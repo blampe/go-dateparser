@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/markusmobius/go-dateparser/date"
-	"github.com/markusmobius/go-dateparser/internal/setting"
+	"github.com/blampe/go-dateparser/date"
+	"github.com/blampe/go-dateparser/internal/setting"
 )
 
 var (

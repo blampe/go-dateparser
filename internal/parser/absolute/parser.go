@@ -7,13 +7,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/markusmobius/go-dateparser/date"
-	"github.com/markusmobius/go-dateparser/internal/dateutil"
-	"github.com/markusmobius/go-dateparser/internal/parser/common"
-	"github.com/markusmobius/go-dateparser/internal/parser/tokenizer"
-	"github.com/markusmobius/go-dateparser/internal/setting"
-	"github.com/markusmobius/go-dateparser/internal/strutil"
-	"github.com/markusmobius/go-dateparser/internal/timezone"
+	"github.com/blampe/go-dateparser/date"
+	"github.com/blampe/go-dateparser/internal/dateutil"
+	"github.com/blampe/go-dateparser/internal/parser/common"
+	"github.com/blampe/go-dateparser/internal/parser/tokenizer"
+	"github.com/blampe/go-dateparser/internal/setting"
+	"github.com/blampe/go-dateparser/internal/strutil"
+	"github.com/blampe/go-dateparser/internal/timezone"
 )
 
 var (

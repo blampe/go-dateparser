@@ -1,8 +1,8 @@
 package dateparser
 
 import (
-	"github.com/markusmobius/go-dateparser/date"
-	"github.com/markusmobius/go-dateparser/internal/data"
+	"github.com/blampe/go-dateparser/date"
+	"github.com/blampe/go-dateparser/internal/data"
 )
 
 var defaultParser = &Parser{}

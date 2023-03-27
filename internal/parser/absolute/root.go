@@ -4,10 +4,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/markusmobius/go-dateparser/date"
-	"github.com/markusmobius/go-dateparser/internal/dateutil"
-	"github.com/markusmobius/go-dateparser/internal/setting"
-	"github.com/markusmobius/go-dateparser/internal/timezone"
+	"github.com/blampe/go-dateparser/date"
+	"github.com/blampe/go-dateparser/internal/dateutil"
+	"github.com/blampe/go-dateparser/internal/setting"
+	"github.com/blampe/go-dateparser/internal/timezone"
 )
 
 func Parse(cfg *setting.Configuration, str string, tz timezone.OffsetData) (date.Date, error) {

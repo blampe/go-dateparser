@@ -3,8 +3,8 @@ package dateparser
 import (
 	"fmt"
 
-	"github.com/markusmobius/go-dateparser/date"
-	"github.com/markusmobius/go-dateparser/internal/parser/jalali"
+	"github.com/blampe/go-dateparser/date"
+	"github.com/blampe/go-dateparser/internal/parser/jalali"
 )
 
 // ParseJalali parses a Jalali date (which also called Persian or Solar

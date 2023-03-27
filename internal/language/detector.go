@@ -5,9 +5,9 @@ import (
 	"sort"
 	"unicode"
 
-	"github.com/markusmobius/go-dateparser/internal/data"
-	"github.com/markusmobius/go-dateparser/internal/setting"
-	"github.com/markusmobius/go-dateparser/internal/strutil"
+	"github.com/blampe/go-dateparser/internal/data"
+	"github.com/blampe/go-dateparser/internal/setting"
+	"github.com/blampe/go-dateparser/internal/strutil"
 )
 
 func DetectLanguage(cfg *setting.Configuration, str string, languages []string,
